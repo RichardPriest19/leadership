@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The 8 Styles of Leadership</title>
+  <link rel="stylesheet" href="lead-styles.css" />
+</head>
+<body>
+
+  <div class="read-bar" id="readBar"></div>
+
+  <nav class="nav" id="nav">
+    <div class="nav-wrap">
+      <a href="#top" class="nav-logo">
+        <span class="logo-n">8</span>
+        <span class="logo-t">Leadership<br>Styles</span>
+      </a>
+      <div class="nav-links">
+        <a href="#sec-vision"   class="nl" data-s="sec-vision">Vision-Driven</a>
+        <a href="#sec-people"   class="nl" data-s="sec-people">People-Centred</a>
+        <a href="#sec-adaptive" class="nl" data-s="sec-adaptive">Adaptive</a>
+        <a href="#all8"         class="nl">All 8</a>
+      </div>
+      <button class="ham" id="ham" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mob-nav" id="mobNav">
+    <a href="#sec-vision"   class="mn-link">01 — Vision-Driven</a>
+    <a href="#sec-people"   class="mn-link">02 — People-Centred</a>
+    <a href="#sec-adaptive" class="mn-link">03 — Adaptive</a>
+    <a href="#all8"         class="mn-link">All 8 Styles</a>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero" id="top">
+    <div class="hero-wrap">
+      <div class="hero-text">
+        <p class="hero-eyebrow">Leadership Development Series</p>
+        <h1 class="hero-h1">
+          <span class="h1-line1">The 8 Styles</span>
+          <span class="h1-line2">of Leadership</span>
+        </h1>
+        <p class="hero-body">No single leadership style works in every situation. The best leaders understand all eight — when to use them, when to switch, and why the wrong style in the wrong context can undermine even the best strategy.</p>
+        <div class="hero-stats">
+          <div class="hs"><b>8</b><span>Styles</span></div>
+          <div class="hs-div"></div>
+          <div class="hs"><b>3</b><span>Categories</span></div>
+          <div class="hs-div"></div>
+          <div class="hs"><b>70+</b><span>Yrs Research</span></div>
+        </div>
+        <div class="hero-cats">
+          <a href="#sec-vision"   class="hcat hcat-burg">Vision-Driven</a>
+          <a href="#sec-people"   class="hcat hcat-forest">People-Centred</a>
+          <a href="#sec-adaptive" class="hcat hcat-navy">Adaptive</a>
+        </div>
+      </div>
+      <div class="hero-side">
+        <div class="side-label">All 8 Styles</div>
+        <div class="side-list" id="sideList"></div>
+      </div>
+    </div>
+    <div class="hero-stripe">
+      <div class="stripe-seg" style="background:#7c1d3e"></div>
+      <div class="stripe-seg" style="background:#a32555"></div>
+      <div class="stripe-seg" style="background:#1a4d2e"></div>
+      <div class="stripe-seg" style="background:#236640"></div>
+      <div class="stripe-seg" style="background:#236640"></div>
+      <div class="stripe-seg" style="background:#0f2d52"></div>
+      <div class="stripe-seg" style="background:#163d6e"></div>
+      <div class="stripe-seg" style="background:#163d6e"></div>
+    </div>
+  </header>
+
+  <!-- SECTION 1: VISION-DRIVEN -->
+  <section class="section" id="sec-vision" data-theme="burg">
+    <div class="section-wrap">
+      <div class="sec-intro">
+        <div class="si-num">01</div>
+        <div class="si-body">
+          <h2 class="si-title">Vision-Driven</h2>
+          <p class="si-desc">These two styles lead through a compelling picture of the future. They are most effective in organisations that need direction, energy, and a reason to change — and in leaders who can genuinely embody the vision they project.</p>
+        </div>
+      </div>
+      <div class="cards" id="cards-vision"></div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: PEOPLE-CENTRED -->
+  <section class="section" id="sec-people" data-theme="forest">
+    <div class="section-wrap">
+      <div class="sec-intro">
+        <div class="si-num">02</div>
+        <div class="si-body">
+          <h2 class="si-title">People-Centred</h2>
+          <p class="si-desc">These three styles place the human being at the centre of leadership. They build trust, unlock potential, and create the psychological safety that drives high performance. Most effective when talent retention, engagement, and long-term capability matter.</p>
+        </div>
+      </div>
+      <div class="cards" id="cards-people"></div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: ADAPTIVE -->
+  <section class="section" id="sec-adaptive" data-theme="navy">
+    <div class="section-wrap">
+      <div class="sec-intro">
+        <div class="si-num">03</div>
+        <div class="si-body">
+          <h2 class="si-title">Adaptive</h2>
+          <p class="si-desc">These three styles are defined by their responsiveness to context. Rather than applying a fixed approach, adaptive leaders shift their style based on the team's readiness, the task at hand, and the performance expectations in play.</p>
+        </div>
+      </div>
+      <div class="cards" id="cards-adaptive"></div>
+    </div>
+  </section>
+
+  <!-- ALL 8 TABLE -->
+  <section class="all8-section" id="all8">
+    <div class="all8-wrap">
+      <p class="a8-eyebrow">Complete Reference</p>
+      <h2 class="a8-title">All 8 at a Glance</h2>
+      <div class="a8-table" id="a8Table"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-wrap">
+      <div class="footer-brand"><span class="fb-n">8</span><span class="fb-t">Leadership Styles Reference Guide</span></div>
+      <p class="footer-note">Click any style to explore the full breakdown.</p>
+    </div>
+  </footer>
+
+  <div class="modal-bg" id="modalBg">
+    <div class="modal-box" id="modalBox">
+      <button class="modal-x" id="modalX">Close &times;</button>
+      <div class="modal-inner" id="modalInner"></div>
+    </div>
+  </div>
+
+  <button class="up-btn" id="upBtn">&#8593;</button>
+
+  <script src="lead-app.js"></script>
+</body>
+</html>
